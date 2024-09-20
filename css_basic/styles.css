@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction:column;
-    background-color: rgb(137, 236, 236);
+    background-color: #89ecec;
     
 }
 main{
@@ -17,7 +17,7 @@ article{
     border-color: black;
     padding-top: 30px;
 }
-article h2{
+article h2,h3{
     text-align: center;
     padding: 1rem;
     border-style: solid;
@@ -73,4 +73,8 @@ tfoot {
 footer a:hover{
     color: blue;
 }
-
+.github_logo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
