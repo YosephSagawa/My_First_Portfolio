@@ -40,20 +40,36 @@ a[href*="ibb"]:hover{
 a::after{
     content: ">>";
 }
-table{
-    background-color: rgb(240, 242, 239);
-    border: double;
-    border-width: auto;
-    border-color: black;
-    padding: 20px;
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
 }
-table caption{
-    text-decoration: underline;
-    font-weight: bold;
+
+caption {
+    font-size: 1.5em;    margin-bottom: 10px; 
+    font-weight: bold; 
 }
-table th{
-    font-weight: bold;
+
+th, td {
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
 }
+
+th {
+    background-color: #f2f2f2;     color: #333; 
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5; 
+}
+
+tfoot {
+    font-weight: bold; 
+    background-color: #f9f9f9; 
+}
+
 footer a:hover{
     color: blue;
 }
